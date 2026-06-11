@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "轨魅网",
+        "app-plus": {
+          "titleNView": false,
+          "bounce": "none"
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "轨魅网",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "app-plus": {
+      "background": "#FFFFFF"
+    }
+  }
+}

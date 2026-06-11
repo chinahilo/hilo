@@ -1,0 +1,55 @@
+{
+  "name": "轨魅网",
+  "appid": "__UNI__GUIMEI8",
+  "description": "轨魅网增强版 WebView App",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": false,
+      "waiting": false,
+      "autoclose": true,
+      "delay": 0
+    },
+    "statusbar": {
+      "immersed": false,
+      "background": "#FFFFFF",
+      "style": "dark"
+    },
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "modules": {},
+    "distribute": {
+      "android": {
+        "packagename": "com.guimei8.app",
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+        ],
+        "schemes": "guimei8"
+      },
+      "ios": {},
+      "sdkConfigs": {}
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "vueVersion": "2"
+}
